@@ -14,4 +14,4 @@ Output specification Output T lines, one for each test case, containing the requ
 Entry 
 
 # Run
-python recorrePosiciones.py
+`python recorrePosiciones.py`
