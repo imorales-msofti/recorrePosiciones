@@ -83,9 +83,16 @@ def recorrerPosiciones(n, m):
     return direccion
 
 
-print('(1, 1): R - ', recorrerPosiciones(1, 1))
-print('(2, 2): L - ', recorrerPosiciones(2, 2))
-print('(3, 1): D - ', recorrerPosiciones(3, 1))
-print('(3, 3): R - ', recorrerPosiciones(3, 3))
+# print('(1, 1): R - ', recorrerPosiciones(1, 1))
+# print('(2, 2): L - ', recorrerPosiciones(2, 2))
+# print('(3, 1): D - ', recorrerPosiciones(3, 1))
+# print('(3, 3): R - ', recorrerPosiciones(3, 3))
 
 
+if __name__ == '__main__':
+    
+    for _ in range(int(input("T: "))):
+        n = int(input("N: "))
+        m = int(input("M: "))
+
+        recorrerPosiciones(n, m)
